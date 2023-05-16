@@ -50,8 +50,8 @@ class Generis {
 $titanic = new Movie(2020,new Generis('romantic','action'));
 $avatar = new Movie(2023,new Generis('action','sci-fi'));
 
-var_dump($titanic);
-var_dump($avatar);
+/* var_dump($titanic);
+var_dump($avatar); */
 
 $titanic->title = 'titanic';
 $titanic->descrition = 'lorem1';
