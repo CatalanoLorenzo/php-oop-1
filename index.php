@@ -66,5 +66,14 @@ $avatar->title = 'avatar';
 $avatar->descrition = 'lorem2';
 $avatar->setViews(4);
 
-var_dump($titanic);
-var_dump($avatar);
+echo ('title: ' . $avatar->title);
+echo ('descrition: ' . $avatar->descrition);
+echo ('year: ' . $avatar->year);
+echo ('genre one : ' . $avatar->generis->primary_gen);
+echo ('genre two : ' . $avatar->generis->secondary_gen);
+echo ('title: ' . $titanic->title);
+echo ('descrition: ' . $titanic->descrition);
+echo ('year: ' . $titanic->year);
+echo ('genre one : ' . $titanic->generis->primary_gen);
+echo ('genre two : ' . $titanic->generis->secondary_gen);
+
