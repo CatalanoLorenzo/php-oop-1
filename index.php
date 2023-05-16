@@ -25,16 +25,16 @@ class Movie{
     #metodo
     public function setViews($view){
         if ($view > 10) {
-             $this -> views = 'more views';
+             $this->views = 'more views';
         }else {
-            $this -> views = 'low views';
+            $this->views = 'low views';
         }
     }
     #costrutto
     function __construct(int $year, Generis $generis)
     {
-        $this -> generis = $generis;
-        $this -> year = $year;
+        $this->generis = $generis;
+        $this->year = $year;
     }
 }
 class Generis {
@@ -42,8 +42,8 @@ class Generis {
     public $secondary_gen;
     function __construct(string $_primary_gen,string $_secondary_gen,)
     {
-        $this -> primary_gen = $_primary_gen;
-        $this -> secondary_gen = $_secondary_gen;
+        $this->primary_gen = $_primary_gen;
+        $this->secondary_gen = $_secondary_gen;
     }
 }
 
@@ -53,8 +53,8 @@ $avatar = new Movie(2023,new Generis('action','sci-fi'));
 var_dump($titanic);
 var_dump($avatar);
 
-$titanic ->title = 'titanic';
-$titanic ->descrition = 'lorem1';
+$titanic->title = 'titanic';
+$titanic->descrition = 'lorem1';
 $titanic->setViews(11);
 
 
@@ -62,8 +62,8 @@ $titanic->setViews(11);
 
 
 
-$avatar ->title = 'avatar';
-$avatar ->descrition = 'lorem2';
+$avatar->title = 'avatar';
+$avatar->descrition = 'lorem2';
 $avatar->setViews(4);
 
 var_dump($titanic);
