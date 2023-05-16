@@ -56,7 +56,7 @@ var_dump($avatar);
 $titanic ->title = 'titanic';
 $titanic ->descrition = 'lorem1';
 $titanic->setViews(11);
-$titanic -> $Generis -> primary_gen = 'romantic';
+
 
 
 
