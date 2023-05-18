@@ -7,14 +7,6 @@ class Movie{
     public $year;
     public $generis;
     #metodo
-    public function setViews($view){
-        if ($view > 10) {
-             $this->views = 'more views';
-        }else {
-            $this->views = 'low views';
-        }
-    }
-    #costrutto
     function __construct(int $year,string $_title,string $_descrition,int $_views, Generis $generis)
     {
         $this->generis = $generis;
@@ -23,4 +15,12 @@ class Movie{
         $this->descrition = $_descrition;
         $this->views = $_views;
     }
+    public function setViews($view){
+        if ($view > 10) {
+             $this->views = 'more views';
+        }else {
+            $this->views = 'low views';
+        }
+    }
+    #costrutto
 }
