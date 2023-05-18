@@ -1,7 +1,7 @@
 <?php
 class Movie{
     #variabili d'istanza
-    public $title;
+    public $title; 
     public $descrition;
     public $views;
     public $year;

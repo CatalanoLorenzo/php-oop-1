@@ -1,5 +1,5 @@
 <?php
-class Generis {
+class Generis { 
     public $primary_gen;
     public $secondary_gen;
     function __construct(string $_primary_gen,string $_secondary_gen,)
